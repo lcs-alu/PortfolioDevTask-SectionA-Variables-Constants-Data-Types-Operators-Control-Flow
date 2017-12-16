@@ -17,7 +17,11 @@
  
  */
 // Answer question 2 below
-
+// The name of the album doesn't change, so it's a constant
+// The copies sold and the suggested selling price can be changed based on the market, so they're variables
+let album = "Alisa"
+var copiesSold = 1_000_000_000_000
+var suggestedSellingPrice = 1
 /*:
  ## Now share your understanding
  
