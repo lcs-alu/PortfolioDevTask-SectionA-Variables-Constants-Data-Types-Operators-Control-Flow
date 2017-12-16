@@ -19,7 +19,19 @@
  
  */
 // Answer question 4 below
+// 1
+var moneyIHaveEarned : Double = 5
 
+// 2
+moneyIHaveEarned -= 2
+
+// 3
+moneyIHaveEarned *= 4
+
+// 4
+moneyIHaveEarned -= 0.75 * 13
+
+print(moneyIHaveEarned)
 /*:
  ## Now share your understanding
  
