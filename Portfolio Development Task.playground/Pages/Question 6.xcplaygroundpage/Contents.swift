@@ -17,7 +17,7 @@
  
  */
 // Answer question 6 below
-var currentDistanceRun : Double = 1
+var currentDistanceRun : Double = 100
 let targetDistance : Double = 100
 
 
@@ -27,21 +27,17 @@ if currentDistanceRun <= 0.1 * targetDistance {
     print("Great start, keep it up!") }
 
 // Between 45% and up to but not including 50%
-if currentDistanceRun >= 0.4 * targetDistance {} else if currentDistanceRun <= 0.5 * targetDistance {print("You're almost at halfway")}
+if currentDistanceRun >= 0.45 * targetDistance {} else if currentDistanceRun <= 0.5 * targetDistance {print("You're almost at halfway")}
 
 
 // Exactly half their target distance
-if currentDistanceRun == 0.5 * targetDistance {
-    print("Halfway there!")
-}
+if currentDistanceRun == 0.5 * targetDistance {print("Halfway there!")}
 
 // More than 90% of their target distance but not the entire targer distance
 if currentDistanceRun >= 0.9 * targetDistance {} else if currentDistanceRun <= targetDistance {print("Nearly done!")}
 
 // Entire target distance
-if currentDistanceRun == targetDistance {
-    print("Great job! You're finished the run.")
-}
+if currentDistanceRun == targetDistance {print("Great job! You're finished the run.")}
 
 /*:
  ## Now share your understanding
