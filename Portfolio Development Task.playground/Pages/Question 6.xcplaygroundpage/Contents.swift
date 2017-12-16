@@ -17,6 +17,10 @@
  
  */
 // Answer question 6 below
+let targetDistance : Double
+var currentDistanceRun : Double
+if { targetDistance <= 0.1 * currentDistanceRun, print("Great start, keep it up!") }
+if {
 
 
 /*:
