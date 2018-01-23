@@ -30,7 +30,7 @@ if currentDistanceRun < 0.1 * targetDistance {
 else if currentDistanceRun > 0.45 * targetDistance && currentDistanceRun < 0.5 * targetDistance {
     print("You're almost at halfway!")
 }
-    // 50%
+    // Run 50% of the target distance
 else if currentDistanceRun == 0.5 * targetDistance {
     print("Halfway there!")
 }
