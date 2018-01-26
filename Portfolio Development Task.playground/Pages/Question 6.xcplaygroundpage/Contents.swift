@@ -21,25 +21,16 @@ var currentDistanceRun : Double = 45
 let targetDistance : Double = 100
 
 
-    // Less than 10%
+// If and else if statements
 if currentDistanceRun < 0.1 * targetDistance {
     print("Great start, keep it up!")
-    
-}
-    // 45% and up but not include 50%
-else if currentDistanceRun > 0.45 * targetDistance && currentDistanceRun < 0.5 * targetDistance {
+} else if currentDistanceRun > 0.45 * targetDistance && currentDistanceRun < 0.5 * targetDistance {
     print("You're almost at halfway!")
-}
-    // Run 50% of the target distance
-else if currentDistanceRun == 0.5 * targetDistance {
+} else if currentDistanceRun == 0.5 * targetDistance {
     print("Halfway there!")
-}
-    // More than 90% but not the entire target distance
-else if currentDistanceRun > 0.9 * targetDistance && currentDistanceRun < targetDistance {
+} else if currentDistanceRun > 0.9 * targetDistance && currentDistanceRun < targetDistance {
     print("Nearly done!")
-}
-    // Run the entire target distance
-else if currentDistanceRun == targetDistance {
+} else if currentDistanceRun == targetDistance {
     print("GREAT JOB! You're finished the run.")
 }
 
